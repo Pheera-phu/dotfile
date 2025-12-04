@@ -14,3 +14,4 @@ lazygit/config.yml
 composer/config.json
 composer/auth.json
 composer
+/create-next-app-nodejs
