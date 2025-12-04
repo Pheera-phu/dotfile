@@ -17,6 +17,7 @@ return {
           "intelephense", 
           "eslint",
           "tailwindcss",
+          "typescript-language-server",
           "cssls",
           "html",
           "vue_ls"
@@ -45,7 +46,7 @@ return {
 
       vim.lsp.config("vue_ls", {
         capabilities = capabilities,
-        filetypes = { "vue", "javascript", "typescript", "javascriptreact", "typescriptreact"},
+        filetypes = { "vue", "javascript" },
         init_options = {
           vue = {
             hybridMode = true,
