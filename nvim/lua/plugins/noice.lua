@@ -6,8 +6,8 @@ return {
     {
       "rcarriga/nvim-notify",
       opts = {
-        background_color = "#000000"
-      },
+        background_colour = "#000000"
+      }
     },
     "nvim-treesitter/nvim-treesitter",
   },
