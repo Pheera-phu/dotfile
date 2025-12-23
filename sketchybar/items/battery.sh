@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sketchybar --add item battery right \
-  --set battery update_freq=120 \
+  --set battery update_freq=60 \
   script="$PLUGINS_DIR/battery.sh" \
   icon.padding_left=5 \
   label.padding_right=5 \

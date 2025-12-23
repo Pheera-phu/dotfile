@@ -17,7 +17,7 @@ return {
           "intelephense", 
           "eslint",
           "tailwindcss",
-          "typescript-language-server",
+          -- "typescript-language-server",
           "cssls",
           "html",
           "vue_ls"
